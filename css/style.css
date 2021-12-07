@@ -1,0 +1,117 @@
+
+@font-face { font-family: Montserrat-Bold; src: url('fonts/Montserrat-Bold.ttf'); }
+@font-face { font-family: Montserrat-Light; src: url('Montserrat-Light.ttf'); }
+@font-face { font-family: Montserrat-Regular; src: url('Montserrat-Regular.ttf'); }
+@font-face { font-family: Montserrat-SemiBold; src: url('Montserrat-SemiBold.ttf'); }
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+
+}
+.main
+{
+    padding: 30px;
+
+}
+ .top-text
+    {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+
+
+    .top-text .top-text-iner-wrapper
+    {
+      width: 700px;
+    }
+    .top-text .top-text-iner-wrapper h1, h2{
+        color:rgb(19, 63, 27);
+        text-align: center;
+    }
+    .top-text .top-text-iner-wrapper p{
+        color:rgb(77, 114, 84);
+        font-size: 20px;
+    }
+    .main-wrapper{
+        margin-top: 30px;
+        display: flex;
+    justify-content: center;
+    overflow: auto;
+    border: 2px solid red;
+    }
+    .labels
+    {
+       display: flex;
+       justify-content: space-between;
+       align-content: center;
+    }
+
+    .main-wrapper .row{
+        display: flex;
+        justify-content: center;
+         width: 100%;
+    }
+    .radio-btn
+    {
+
+        text-align: center;
+        //border-right: 1px solid green;
+    }
+
+    .text-and-radio-btn-wrapper form
+    {
+          display: flex;
+       justify-content: space-between;
+       align-content: center;
+    }
+
+    table
+    {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0 20px;
+    }
+    table tbody tr{
+        background-color: rgb(223, 219, 219);
+
+    }
+
+    .tr-border-start{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 40%;
+        padding: 10px;
+    }
+    .tr-border-start p{
+        font-weight: unset;
+    }
+    .tr-border-end
+    {
+
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        //padding: 20px;
+    }
+    .td-center
+    {
+        text-align: center;
+    }
+    table thead{
+        font-size: 20px;
+    }
+    table p{
+        font-weight: bold;
+    }
+    table h3{
+        color:rgb(19, 63, 27);
+        font-size: 20px;
+    }
+
+
